@@ -12,7 +12,7 @@
         update_cache: yes
         state: present
 
-   - name: Create the application directory
+    - name: Create the application directory
       file:
         path: /opt/engineering
         state: directory
